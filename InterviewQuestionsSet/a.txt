@@ -8,3 +8,17 @@ console.log(iAmUseless); // output : null
 var iAmStandBy;
 console.log(iAmStandBy); // output : undefined
 
+undefined is also a datatype and (It's actually a bug)null's datatype is object.
+
+/*----*/
+2. What's NaN ?
+
+console.log("Amol" - "Shinde"); // output : NaN
+
+var result = 10 / "abc";
+console.log(result);  // Output: NaN
+
+
+NaN stands for "Not a Number." It is a special value that represents the result of an operation that cannot produce a meaningful numeric result.
+
+NaN is property of global object. In other words, it is a variable in global scope. 
