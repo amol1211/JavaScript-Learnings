@@ -1,1 +1,14 @@
 Values and Variables
+
+Variables naming conventions :
+
+1. The first character must be a letter or an underscore(_) or an dollar sign($). You can't use number as first character.
+
+2. The rest of the variable name can include any letter, any number, or the underscore. Can't use any other character, including spaces.
+
+3. Variables names are case sensative.
+
+4. No limit to the length of the variable name.
+
+5. You can't use one of JavaScript's reserved words as a variable name.
+
