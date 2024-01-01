@@ -1,0 +1,10 @@
+INTERVIEW QUESTIONS SET
+
+1. What's the difference between null and undefined?
+
+var iAmUseless = null;
+console.log(iAmUseless); // output : null
+
+var iAmStandBy;
+console.log(iAmStandBy); // output : undefined
+
