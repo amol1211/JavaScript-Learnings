@@ -1,1 +1,10 @@
 Data types
+
+There are 6 types of primitives data types : 
+
+1. undefined : typeof instance === "undefined"
+2. Boolean : typeof instance === " boolean"
+3. Number : typeof instance === "number"
+4. String : typeof instance === "string"
+5. BigInt : typeof instance === "bigint"
+6. Symbol : typeof instance === "symbol"
