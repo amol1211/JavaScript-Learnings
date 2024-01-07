@@ -37,7 +37,8 @@ var newNum = num--;
 console.log(num); //14
 console.log(newNum); //15 */
 
+//Prefix decrement
 var num = 15;
 var newNum = --num;
-console.log(num); //15
+console.log(num); //14
 console.log(newNum); //14
