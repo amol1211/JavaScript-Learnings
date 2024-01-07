@@ -1,0 +1,11 @@
+Expressions and Operators
+
+There are 6 types of operators
+
+1. Assignment operators
+2. Arithmetic operators
+3. Comparison operators
+4. Logical operators
+5. String operators
+6. Conditionals (ternary) operator
+
