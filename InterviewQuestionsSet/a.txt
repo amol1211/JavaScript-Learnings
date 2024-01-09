@@ -22,3 +22,34 @@ console.log(result);  // Output: NaN
 NaN stands for "Not a Number." It is a special value that represents the result of an operation that cannot produce a meaningful numeric result.
 
 NaN is property of global object. In other words, it is a variable in global scope. 
+
+3. What is the difference between "function parameter" Vs "function Arguments" ?
+
+Function Parameters:
+
+Parameters are variables listed in the function declaration.
+They act as placeholders or names for values that will be provided as arguments when the function is called.
+Parameters are part of the function signature and are defined when the function is declared.
+They are used within the function body to represent the values passed as arguments during the function call.
+
+Example:
+
+function addNumbers(a, b) {
+    // a and b are parameters
+    return a + b;
+}
+
+In this example, a and b are parameters of the addNumbers function.
+
+Function Arguments:
+
+Arguments are the actual values passed to a function when it is called.
+They are provided in the function call and correspond to the parameters of the function.
+The values passed as arguments are assigned to the parameters in the order in which they appear in the function declaration.
+
+Example:
+
+var result = addNumbers(2, 3);
+
+In this example, 2 and 3 are arguments passed to the addNumbers function. During the function call, 
+these values are assigned to the parameters a and b respectively.
