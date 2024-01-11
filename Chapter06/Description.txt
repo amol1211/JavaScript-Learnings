@@ -1,0 +1,7 @@
+Arrays in JS
+
+1. Traversal of an array 
+2. Searching and Filter in an array
+3. How to Sort and Compare an array
+4. How to Insert, Add, Replace and Delete elements in array(CRUD)
+5. Map(), Reduce(), Filter()
