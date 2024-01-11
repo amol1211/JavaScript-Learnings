@@ -91,10 +91,25 @@ console.log(newArr); */
 
 //Reduce method
 
-let arr = [5, 6, 2];
+/* let arr = [5, 6, 2];
 
-let sum = arr.reduce((accumulater, curElem, index, arr) => {
-  return (accumulater += curElem);
+let sum = arr.reduce((accumulater, curElem) => {
+    debugger;
+  return (accumulater *= curElem);
 });
 
-console.log(sum);
+console.log(sum); */
+
+//Flattening of 2D, 3D array into one dimensional array
+
+/* const arr = [
+  ["zone_1", "zone_2"],
+  ["zone_3", "zone_4"],
+  ["zone_5", "zone_6"],
+  ["zone_7", "zone_8"],
+];
+
+let flatArr = arr.reduce((accum, currVal) => {
+  return accum.concat(currVal);
+});
+console.log(flatArr); */
