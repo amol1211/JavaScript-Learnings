@@ -1,0 +1,10 @@
+Strings in JS
+
+1. Escape Character
+2. Finding a string in a string
+3. Searching for a string in a string
+4. Extracting string parts
+5. Replacing string content
+6. Extracting string characters
+7. Other useful methods
+
