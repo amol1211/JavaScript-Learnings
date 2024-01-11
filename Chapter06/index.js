@@ -61,9 +61,30 @@ console.log(animals); */
 myNumbers.unshift(4, 6);
 console.log(myNumbers); */
 
-const plants = ["Broccoli", "Cauliflower", "Tomato", "Cabbage"];
+/* const plants = ["Broccoli", "Cauliflower", "Tomato", "Cabbage"];
 
 console.log(plants);
 console.log(plants.pop());
 console.log(plants.shift());
 console.log(plants);
+ */
+
+//map, reduce and filter method
+
+const array1 = [1, 4, 9, 16, 25];
+//num > 9
+
+/* let newArr = array1.map((curElem, index, arr) => {
+  return curElem > 9;
+});
+console.log(array1);
+console.log(newArr); */
+
+//Output : [ 1, 4, 9, 16, 25 ]
+//[ false, false, false, true, true ]
+
+let newArr = array1.map((curElem, index, arr) => {
+  return `Index no = ${index} and the value is ${curElem} belong to ${arr}`;
+});
+
+console.log(newArr);
