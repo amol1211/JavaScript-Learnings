@@ -83,8 +83,18 @@ console.log(newArr); */
 //Output : [ 1, 4, 9, 16, 25 ]
 //[ false, false, false, true, true ]
 
-let newArr = array1.map((curElem, index, arr) => {
+/* let newArr = array1.map((curElem, index, arr) => {
   return `Index no = ${index} and the value is ${curElem} belong to ${arr}`;
 });
 
-console.log(newArr);
+console.log(newArr); */
+
+//Reduce method
+
+let arr = [5, 6, 2];
+
+let sum = arr.reduce((accumulater, curElem, index, arr) => {
+  return (accumulater += curElem);
+});
+
+console.log(sum);
