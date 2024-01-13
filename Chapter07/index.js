@@ -78,6 +78,46 @@ console.log(replaceData); */
 /* let str = "HELLO WORLD";
 console.log(str.charAt(0)); */
 
-let str = "HELLO WORLD";
-console.log(str.charCodeAt(0));
+/* let str = "HELLO WORLD";
+console.log(str.charCodeAt(0)); */
 //Output : 72
+
+/* The Unicode Standard provides a unique number for every character, no matter the platform, device, application, or language. UTF-8 is a popular Unicode encoding which has 88-bit code units. */
+
+// Property Access
+// ECMAScript 5 (2009) allows property access [] on strings
+
+/* var str = "HELLO WORLD";
+console.log(str[0]); */
+
+//Other useful methods
+
+/* let myName = "Amol Shinde";
+console.log(myName.toUpperCase());
+console.log(myName.toLowerCase()); */
+
+//The concat() method
+// concat() joins two or more strings
+
+/* let fName = "Amol";
+let lName = "Shinde";
+
+console.log(fName + lName);
+console.log(fName.concat(lName));
+console.log(fName.concat(" ", lName));
+console.log(`${fName} ${lName}`); */
+
+//String.trim()
+//The trim() method removes whitespace from both sides of a string
+
+/* var str = "            Hello World!            ";
+console.log(str.trim());
+console.log(str); */
+
+//Converting a string to an Array
+//A string can be converted to an array with the split() method
+
+/* var txt = "a,b,c,d,e"; // string
+console.log(txt.split(","));
+console.log(txt.split(" "));
+console.log(txt.split("|")); */
