@@ -39,3 +39,45 @@ console.log(res); */ //Output : Appl
 
 /* let res = str.slice(7, -2);
 console.log(res); */ //Output : Banana, Kiwi, Man
+
+//The substring() Method
+//substring() is similar to slice().
+//Only difference is that substring() don't accept
+//negative indexes.
+
+/* var str = "Apple, Banana, Kiwi";
+let res = str.substring(0, 4);
+console.log(res); */
+
+//The substr() method
+//substr() is also similar to slice().
+//The difference is that the second parameter specifies the
+// length of the extracted part.
+
+/* var str = "Apple, Banana, Kiwi";
+let res = str.substr(0, 4); 
+let res = str.substr(-4);
+console.log(res); */
+
+//Replacing string content()
+
+//The replace() method replaces a specified value with another value in a string.
+//Important : It doesn't change the original string also it's a case sensative
+/* let myBioData = `I am Amol Shinde`;
+let replaceData = myBioData.replace("Amol", "Kamal");
+console.log(replaceData); */
+
+//Extracting string characters
+
+//There are 3 methods for extracting string characters:
+
+//charAt(position)
+//charCodeAt(position) :  Returns the unicode of the characters at a specified index in a string
+//Property access []
+
+/* let str = "HELLO WORLD";
+console.log(str.charAt(0)); */
+
+let str = "HELLO WORLD";
+console.log(str.charCodeAt(0));
+//Output : 72
