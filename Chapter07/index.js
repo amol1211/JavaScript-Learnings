@@ -38,4 +38,4 @@ console.log(res); */ //Output : Appl
 //If we pass starting index somewhere from middle and ending index as lets say, -2, the value it print will be until the index where last index is starting, for example :
 
 /* let res = str.slice(7, -2);
-console.log(res); */
+console.log(res); */ //Output : Banana, Kiwi, Man
