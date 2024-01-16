@@ -3,3 +3,4 @@ Date and Time in JS
 1. Date Methods (get and set)
 2. Time Methods (get and set) 
 
+There are four ways to create date objects
