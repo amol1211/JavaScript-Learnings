@@ -1,0 +1,5 @@
+Math object in JavaScript : 
+
+The JavaScript math object allows you to perform mathematical
+tasks on numbers.
+
