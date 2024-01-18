@@ -1,0 +1,7 @@
+DOM(Document Object Model) in JavaScript
+
+1.Windows Vs Document
+2.DOM Vs BOM
+3.DOM Navigation
+4.Searching and getting elements reference
+
