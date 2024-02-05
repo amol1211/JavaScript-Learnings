@@ -1,0 +1,7 @@
+Events in JavaScript
+
+1. 4 ways of writing events in JavaScript
+2. What is event object ?
+3. MouseEvent in JavaScript
+4. KeyboardEvent in JavaScript
+5. InputEvents in JavaScript

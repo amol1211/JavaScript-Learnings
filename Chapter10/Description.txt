@@ -5,3 +5,37 @@ DOM(Document Object Model) in JavaScript
 3.DOM Navigation
 4.Searching and getting elements reference
 
+          Window
+        /    |   \
+     DOM    BOM   JavaScript
+    /        |       \
+Document   Navigator  Object
+             |          \
+           Screen       array
+             |            \
+          Location       function
+             |               
+            frames 
+             |             
+            history
+             |
+            XML HttpRequest
+
+
+
+
+
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
