@@ -49,10 +49,15 @@ console.log(Object.fromEntries(arrObj)); */
 //ES11/ECMAScript2020
 // 1. BigInt
 
-let oldNum = Number.MAX_SAFE_INTEGER;
+/* let oldNum = Number.MAX_SAFE_INTEGER;*/
 /* console.log(oldNum);*/
-console.log(9007199254740991n + 12n);
-const newNum = 9007199254740991n + 12n;
+//console.log(9007199254740991n + 12n);
+/* const newNum = 9007199254740991n + 12n;*/
+/* console.log(newNum);
+console.log(typeof newNum); */
 
-console.log(newNum);
-console.log(typeof newNum);
+//ES2014
+//Direct declaration doesn't works in this case unless we var, const or let
+/* "use strict";
+let x = 3.14;
+console.log(x); */
