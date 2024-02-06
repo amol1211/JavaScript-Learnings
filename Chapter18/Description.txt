@@ -1,0 +1,9 @@
+//How JS works and Asynchronous JavaScript
+1. Hoisting in JavaScript
+2.Scope Chain
+3.Lexical Scoping in JavaScript
+4.Use Strict mode
+5.This Keyword
+6.Closures in JavaScript
+7.What is Asynchronous JavaScript Programming?
+8.What is Event Loop?

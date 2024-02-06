@@ -1,0 +1,15 @@
+Advanced JavaScript
+1. Event Propagation (Event Bubbling and event capturing)
+2. Higher order function
+3. CallBack function
+4. Function Currying (We will see after Async JS section)
+5. CallBack Hell
+6. AJAX call using XMLHttprequest
+7. Bonus Section JSON
+8. Fetch API
+9. Promises
+10. Async-Await
+11. Error Handling in JS 
+
+Event Propagation mode determines in which order
+the elements recieve the event.

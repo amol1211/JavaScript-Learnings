@@ -27,4 +27,3 @@ const myBio = */ {
 
   console.log(myBio);
 } */
-
