@@ -105,14 +105,14 @@ h1.innerText = h1.innerText + " is genius!"; */
 
 /* Create 3 divs with common class name- "box". Access them and add some unique text to each of them */
 
-let divs = document.querySelectorAll(".box");
+/* let divs = document.querySelectorAll(".box");*/
 /* console.log(divs[0]);*/
 
-let idx = 1;
+/* let idx = 1;
 for (let div of divs) {
   div.innerText = `new unique value ${idx}`;
   idx++;
-}
+} */
 
 /* divs[0].innerText = "new unique val 1";
 divs[1].innerText = "new unique val 2";
