@@ -16,8 +16,29 @@ Now create a new class in CSS and try to append this class to the <p> element.
 Did you notice, how you overwrite the class name when you add a new one?
 Solve this problem using classList.*/
 
-let para = document.querySelector("p");
+/* let para = document.querySelector("p");
 
-para.classList.add("newClass");
+para.classList.add("newClass"); */
 
 /* para.classList.remove("newClass"); */
+
+/* -------------------------------------- */
+
+/* Create a toggle button that changes the screen to dark-mode when clicked & light-mode when clicked again. */
+
+let modeBtn = document.querySelector("#mode");
+let body = document.querySelector("body");
+let currMode = "light";
+
+modeBtn.addEventListener("click", () => {
+  if (currMode === "light") {
+    currMode = "dark";
+    body.classList.remove("light");
+    body.classList.add("dark");
+  } else {
+    currMode = "light";
+    body.classList.remove("dark");
+    body.classList.add("light");
+  }
+  console.log(currMode);
+});
